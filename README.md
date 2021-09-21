@@ -1,4 +1,4 @@
-# Concreteness
+# concreteness
 Method to estimate the concreteness of a word on a scale from 1 to 5 based on its fasttext embedding. Trained on the `cc.nl.300.bin` Dutch fasttext embeddings. Also works on unknown words.
 
 ### Dependencies:
