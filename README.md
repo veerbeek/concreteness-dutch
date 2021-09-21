@@ -45,7 +45,7 @@ word_embedding = embeddings.get_word_vector(word)
 
 prediction = svr.predict([word_embedding])[0]
 prediction
-## 1.4905
+## 4.83339
 ```
 
 
