@@ -1,5 +1,7 @@
 # concreteness
-Models to estimate the concreteness of a word on a scale from 1 to 5 based on its fasttext embedding. Trained on the `cc.nl.300.bin` Dutch fasttext embeddings. Also works on unknown words.
+Models to estimate the concreteness of a word on a scale from 1 to 5 based on its fasttext embedding. Trained on the `cc.nl.300.bin` Dutch fasttext embeddings. Also works on unknown words. 
+
+Repository contains two models: `svr` and `lgbm`. The `svr` is slightly more accurate but relatively slow, `lgbm` is less accurate but faster.
 
 ### Dependencies:
 * scikit-learn
